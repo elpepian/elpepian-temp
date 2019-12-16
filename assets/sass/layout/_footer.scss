@@ -18,7 +18,7 @@
 		max-width: _size(wrapper);
 		z-index: 2;
 
-		> section {
+		> div {
 			@include vendor('flex-basis', '50%');
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
