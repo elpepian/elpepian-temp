@@ -166,6 +166,8 @@
 				$navPanelInner = $navPanel.children('nav');
 
 			// Move nav content on breakpoint change.
+
+			/*
 				var $navContent = $nav.children();
 
 				breakpoints.on('>medium', function() {
@@ -189,6 +191,7 @@
 							.addClass('alt');
 
 				});
+			*/
 
 			// Hack: Disable transitions on WP.
 				if (browser.os == 'wp'

@@ -86,7 +86,7 @@
 			}
 		}
 
-		@include breakpoint('<=medium') {
-			display: none;
+		@include breakpoint('<=xsmall') {
+			width: 100%;
 		}
 	}
