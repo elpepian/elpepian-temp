@@ -98,7 +98,7 @@
 		@include breakpoint('<=medium') {
 			display: block;
 
-			> section {
+			> div {
 				border-top: solid 2px _palette(alt, border);
 
 				&:first-child {
@@ -142,7 +142,7 @@
 		}
 
 		@include breakpoint('<=small') {
-			> section {
+			> div {
 				@include padding((_size(padding) * 1), (_size(padding) * 1));
 
 				&.split {
