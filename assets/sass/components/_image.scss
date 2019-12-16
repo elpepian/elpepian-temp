@@ -17,6 +17,10 @@
 			display: block;
 		}
 
+		&.rounded img {
+			border-radius: 50%;
+		}
+
 		&.left,
 		&.right {
 			max-width: 40%;

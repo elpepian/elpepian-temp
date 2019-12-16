@@ -42,6 +42,13 @@
 					display: block;
 					padding-left: 0;
 
+					span {
+						display: block;
+						font-size: 0.8rem;
+						outline: none;
+						padding: 0 2rem;
+					}
+
 					a {
 						@include vendor('transition', (
 							'background-color #{_duration(transition)} ease-in-out',
