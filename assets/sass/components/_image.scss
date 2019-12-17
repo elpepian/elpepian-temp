@@ -79,6 +79,17 @@
 				margin: _size(element-margin) 0;
 			}
 		}
+
+		@include breakpoint('<=xsmall') {
+			&.left,
+			&.right {
+				max-width: none;
+				margin-left: 0;
+				margin-right: 0;
+				float: none;
+				display: block;
+			}
+		}
 	}
 
 	a.image {
