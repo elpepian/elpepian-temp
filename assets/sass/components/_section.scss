@@ -15,8 +15,11 @@
 			position: relative;
 
 			.icon {
+				border-left: 20px solid #fff;
+				border-right: 20px solid #fff;
+				box-sizing: content-box;
 				left: 50%;
-				margin-left: -30px;
+				margin-left: -50px;
 				position: absolute;
 				top: -74px;
 
