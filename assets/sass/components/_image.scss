@@ -70,6 +70,20 @@
 			}
 		}
 
+		&.full {
+			display: block;
+			margin: (_size(element-margin) * 2) 0 (_size(element-margin) * 2) (_size(element-margin) * -2);
+			width: calc(100% + 8rem);
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+
 		@include breakpoint('<=small') {
 			&.fit {
 				margin: _size(element-margin) 0;
