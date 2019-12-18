@@ -22,9 +22,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: _font(family-heading);
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		font-weight: _font(weight-heading);
-		letter-spacing: 0.075em;
+		letter-spacing: 0.2em;
 		height: 3rem;
 		line-height: 3rem;
 		padding: 0 2rem;
@@ -77,7 +77,7 @@
 		}
 
 		&.large {
-			font-size: 0.9rem;
+			font-size: 1rem;
 			height: 3.5rem;
 			line-height: 3.5rem;
 			padding: 0 2.75rem;
