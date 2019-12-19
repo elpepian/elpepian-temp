@@ -12,6 +12,20 @@
 		display: inline-block;
 		position: relative;
 
+		figcaption {
+			text-align: right;
+
+			&.wtitle {
+				text-align: center;
+			}
+
+			p {
+				font-size: 1rem;
+				font-style: italic;
+				line-height: 1.5;
+			}
+		}
+
 		img {
 			border-radius: _size(border-radius);
 			display: block;
