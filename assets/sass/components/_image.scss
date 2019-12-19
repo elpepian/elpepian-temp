@@ -15,10 +15,10 @@
 		img {
 			border-radius: _size(border-radius);
 			display: block;
-		}
 
-		p {
-			margin-top: 5px;
+			& + * {
+				margin-top: 5px;
+			}
 		}
 
 		&.rounded img {
