@@ -258,21 +258,29 @@
 	// Ajax form
 	$(function() {
     $("#form input[type='submit']").click(function() {
-        var nom = $("#nom").val();
-        var ema = $("#ema").val();
-        var mes = $("#mes").val();
-        var dataString = 'nom='+ nom + '&ema=' + ema + '&mes=' + mes;
 
-        $.ajax({
-            type: "POST",
-            url: "form.php",
-            data: dataString,
-            success: function(){
-            	$('.success').fadeIn(300);
-            }
-        });
+      var nom = $("#nom").val();
+      var ema = $("#ema").val();
+      var mes = $("#mes").val();
+      var dataString = 'nom='+ nom + '&ema=' + ema + '&mes=' + mes;
 
-        return false;
+      
+    	if (nom && ema && mes) {
+    		// console.log("pasa");
+    		$.ajax({
+          type: "POST",
+          url: "form.php",
+          data: dataString,
+          success: function(){
+          	$('.success').fadeIn(300);
+          }
+	      });
+
+	      return false;
+    	} 
+    	// else {
+    	// 	console.log("no pasa");
+    	// }
     });
 });
 
